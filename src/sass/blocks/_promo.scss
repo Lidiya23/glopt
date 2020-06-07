@@ -1,0 +1,171 @@
+.promo {
+    min-height: 680px;
+    position: relative;
+    padding-bottom: 83px;
+    background: url(../../img/bj1.jpg) center (center/cover) no-repeat;
+    .hamburger {
+        display: none;
+    }
+    &__header {
+        display: flex;
+        img {
+            width: 95px;
+            height: 99px;
+        }
+    }
+    &__logo {
+        margin-top: 23px;
+        padding-right: 55px;
+    }
+    &__menu {
+        display: flex;
+        margin-top: 60px;
+        padding-left: 0;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    &__menu-item {
+        border-right: 1px dotted white;
+        height: 23px;
+        padding: 0 14px;
+        &:last-child {
+            border-right: none;
+            padding-right: 0;
+        }
+        &:first-child {
+            padding-left: 0;
+        }	
+    }
+    &__menu-link {
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffffff;
+        transition: all 0.2s;
+        &:after {
+            content: '';
+            display: block; 
+            margin-top: 5px;
+            width: 100%;
+            height: 1px;
+            transform: scale(0);
+            background-color: $main-color;
+        }
+        &:hover {
+            color: $main-color;
+            text-decoration: none;
+        }
+        &:hover:after {
+            transform: scale(1);
+        }
+    }
+    &__contacts {
+        margin: 45px 21px 0 50px;
+        h2 {
+            margin: 0;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: right;
+            color: #ffffff;
+        }
+        a {
+            margin: 0;
+            font-size: 17px;
+            font-weight: 600;
+            color: #ffffff;
+            text-decoration: none;
+            &:hover {
+                color: $main-color;
+            }
+            &:after {
+                content: '';
+                display: block; 
+                margin-top: 5px;
+                width: 100%;
+                height: 1px;
+                transform: scale(0);
+                background-color: $main-color;
+            }
+            &:hover:after {
+                transform: scale(1);
+            }
+        }
+    }
+    &__subheader {
+       p {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        color: #ffffff;
+       }
+       h1 {
+        margin: 0;
+        font-size: 72px;
+        font-weight: 700;
+        text-align: center;
+        color: #ec644b;
+       }
+       h2 {
+        margin-bottom: 0;
+        font-size: 42px;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+       } 
+    }
+    .divider {
+        display: flex;
+        justify-content: center;
+        margin-top: 19px;
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: calc(50% - 4px);
+            right: calc(52%);
+            width: 440px;
+            height: 1px;
+            background-color: #ffffff;
+        }
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: calc(50% - 4px);
+            left: calc(52%);
+            width: 440px;
+            height: 1px;
+            background-color: #ffffff;
+        }
+        &__round {
+            width: 9px;
+            height: 9px;
+            background-color: #ffffff;
+            border-radius: 100%;
+        }
+    }  
+    &__wrapper {
+        padding: 31px 0 39px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 30px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #ffffff;
+        &:last-child {
+            padding-right: 0;
+        }
+    } 
+    &__wrapper-item {
+        img {
+            width: 65px;
+            height: 57px;
+        }
+    }       
+}

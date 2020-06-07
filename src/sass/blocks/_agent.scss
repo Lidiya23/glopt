@@ -1,0 +1,21 @@
+.agent {
+    height: 342px;
+    padding: 58px 0 75px 0;
+    background: url(../img/bj2.jpg) center (center/cover) no-repeat;
+    &__round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 102px;
+        height: 102px;
+        border: solid 1px #ffffff;
+        border-radius: 100%;
+    }
+    &__descr {
+        font-size: 19px;
+        font-weight: 300;
+        text-align: center;
+        color: #ffffff;
+    }
+}

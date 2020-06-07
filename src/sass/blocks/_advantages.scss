@@ -1,0 +1,28 @@
+.advantages {
+    padding-top: 58px;
+    min-height: 590px;
+    background-color: #f3f3f3;
+    &__wrapper {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 15px 35px 15px;
+    }
+    &__items {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 555px;
+        img {
+            padding: 0 15px 0 0;
+        }
+    }
+    &__text {
+        max-width: 472px;
+    }
+    &__items-subtitle {
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        color: $main-color;
+    }
+}

@@ -1,0 +1,33 @@
+@import 'libs/bootstrap-reboot.min.scss';
+@import 'base/variables';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/organization';
+@import 'blocks/titles';
+@import 'blocks/agent';
+@import 'blocks/prices';
+@import 'blocks/consultation';
+@import 'blocks/form';
+@import 'blocks/manage';
+@import 'blocks/schedule';
+@import 'blocks/questions';
+@import 'blocks/locations';
+@import 'blocks/footer';
+@import 'base/media';
+
+* {
+    font-family: 'Roboto';
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: calc(51px - 35px);
+}

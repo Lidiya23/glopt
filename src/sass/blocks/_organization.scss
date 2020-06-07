@@ -1,0 +1,40 @@
+.organization {
+    min-height: 620px;
+    margin-bottom: 57px;
+    &__divider {
+        width: 148px;
+        height: 1px;
+        margin: 0 auto;
+        background-color: $main-color;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    p {
+        padding: 17px 0 37px 0;
+        margin-bottom: 0;
+        font-size: 21px;
+        font-weight: 300;
+        text-align: center;
+        color: #2e2e2e;
+    }
+    &__item {
+        padding-top: 28px;
+        max-width: 360px;
+    }
+    &__subtitle {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        color: $main-color;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        br {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.questions {
+    min-height: 438px;
+    padding: 62px 0 79px 0;
+    background: url(../../img/bj3.jpg) center (center/cover) no-repeat;
+    &__box {
+        width: 896px;
+        height: 297px;
+        display: block;
+        margin: 0 auto;
+        background-color: rgba($color: #ffffff, $alpha: 0.7)
+    }
+    &__box-text {
+        height: 68px;
+        background-color: #25333c;
+        margin-bottom: 18px;
+    }
+    &__box-title {
+        font-size: 19px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding-top: 20px;
+        line-height: 1;
+    }
+    &__box-sub {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+}
